@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MovieLover</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="movie_description">Movie Description</string>
+    <string name="detail_movies">Detail Movies</string>
+    <string name="btn_select">READ MORE</string>
+    <string name="appbar_scrolling_view_behavior" />
+</resources>

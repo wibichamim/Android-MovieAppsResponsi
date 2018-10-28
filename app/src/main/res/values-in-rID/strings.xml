@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PecintaFilm</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="movie_name">Nama Film</string>
+    <string name="movie_description">Deskripsi Film</string>
+    <string name="detail_movies">Detail Film</string>
+    <string name="btn_select">LENGKAP</string>
+    <string name="appbar_scrolling_view_behavior" />
+</resources>
