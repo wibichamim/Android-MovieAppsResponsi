@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity{
     ProgressDialog loading;
     MovieApi apiService;
 
-    private final String api_key = BuildConfig.API_KEY;
+    private final String api_key = "35b5461de925769cf62e55736d00134a";
     private String language = "id";
 
     @Override

@@ -11,8 +11,8 @@ import com.bumptech.glide.Glide;
 
 public class DetailActivity extends AppCompatActivity {
     String img, judul, desc;
-    ImageView tvImg;
-    TextView tvJudul, tvDesc;
+    ImageView poster;
+    TextView vJudul, deskripsi;
     CoordinatorLayout coordinatorLayout;
 
     @Override
@@ -20,9 +20,9 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        tvImg = findViewById(R.id.poster2);
-        tvJudul = findViewById(R.id.judul2);
-        tvDesc = findViewById(R.id.deskripsi2);
+        poster = findViewById(R.id.poster2);
+        vJudul = findViewById(R.id.judul2);
+        deskripsi = findViewById(R.id.deskripsi2);
 
         img = getIntent().getStringExtra("poster_path");
         judul = getIntent().getStringExtra("title");
@@ -31,9 +31,9 @@ public class DetailActivity extends AppCompatActivity {
         Glide.with(getApplicationContext())
                 .load("http://image.tmdb.org/t/p/w185"+img)
                 .placeholder(R.drawable.img_default_bg)
-                .into(tvImg);
-        tvJudul.setText(judul);
-        tvDesc.setText(desc);
+                .into(poster);
+        vJudul.setText(judul);
+        deskripsi.setText(desc);
 
         coordinatorLayout = findViewById(R.id.coordinatorLayout);
     }
